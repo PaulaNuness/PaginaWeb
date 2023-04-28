@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos_otras.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <header>
+        <section id="logo">
+            <img src="imagen/lirio.png.crdownload" alt="" >
+        </section>
+        <section id="marca">
+            <h1>Contactanos</h1>
+        </section>
+    </header>
+    <nav>
+        <ul type="none">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="produtos_del_hogar.html" target="_blank">Productos del hogar</a></li>
+            <li><a href="prendas_de_vestir.html" target="_blank">Prendas de vestir</a></li>
+            <li><a  href="quienes_somos.html" id="quien" target="_blank">Quienes somos</a></li>
+            <li><a href="">Formulario de contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <fieldset>
+            <legend><h3>Formulario</h3></legend>
+                <form action="enviado.html"  method="post" enctype="text/plain" target="_blank">
+                    <label for="">Nombre: </label><br>
+                    <input type="text" name="Nombre" placeholder="Nombre"><br><br>
+                    <label for="">Apellidos: </label><br>
+                    <input type="text" name="Apellidos" placeholder="Apellidos"><br><br>
+                    <label for="">Email: </label><br>
+                    <input type="email"  name="Email" placeholder="email.correo@gmail.es"><br><br>
+                    <label for="">Sexo: </label><br>
+                    <input type="radio" name="sexo" value="sexo"> Feminino<br>
+                    <input type="radio" name="sexo" value="sexo"> Masculino<br><br>
+                    <label for="">Productos: </label><br>
+                    <input type="checkbox" name="productos" value="productos">1. Productos del Hogar<br>
+                    <input type="checkbox" name="productos" value="productos">2. Productos de Vestir<br><br>
+                    <label for="">Como nos han conocido: </label><br>
+                    <select name="" id="">
+                        <option value="">Anuncio en prensa</option>
+                        <option value="">Anuncios en TV</option>
+                        <option value="">Recomendacion de un amigo</option>
+                        <option value="">Otros</option>
+                    </select><br><br>
+                    <label for="">Observaciones: </label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+                    <input type="submit" name="Enviar" value="Enviar">
+                    <input type="submit" name="Limpiar" value="Limpiar">
+                </form>
+        </fieldset>
+        </section>
+    </main>
+    <footer>
+        <p>Dirección: Calle Independencia Nº 13, Salford, Reino Unido</p>
+        <p>Teléfono: 555- 12 34 65</p>
+        <p><a href="">Mail: (Con un enlace mailto) soporte@jdivisionha.com</a></p>
+        <p><a href="#quien">¿Quienes somos?</a></p><br>
+    </footer>
+</body>
+</html>

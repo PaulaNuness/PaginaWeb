@@ -1,0 +1,112 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+/**********************************************************************************/
+body{
+    background: #F5EEF8;
+
+}
+/**********************************************************************************/
+header{
+    width:90% ;
+    height: 20%;
+    display: inline-flex;
+    background: #EBDEF0;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#logo{
+    width:30% ;
+    height: 100%;
+}
+
+#marca{
+    width:70% ;
+    height: 100%;
+    font-size: 2em;
+    color: darkslateblue;
+    padding-left: 20%;
+}
+/**********************************************************************************/
+nav{
+    width:90% ;
+    height: 10%;
+    text-align: center;
+    background: #EBDEF0 ;
+}
+li{
+    display: inline-flex;
+    padding: 3%;
+    font-size: 1.5em;
+    background: mediumpurple;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+/**********************************************************************************/
+main{
+    width:90% ;
+    height: 60%;
+    background: #EBDEF0 ;
+
+}
+#acima{
+    width:100% ;
+    height: 33.33%;
+    display: inline-flex;
+
+}
+.parte1{
+    width:50% ;
+    height:100%;
+    text-align: justify;
+}
+h3{
+   padding: 5%;
+}
+#imgv{
+    width:100% ;
+    height:100%;
+}
+#meio{
+    width:100% ;
+    height: 33.33%;
+    display: inline-flex;
+}
+.imgr{
+    width:33.33%;
+    height:100%;
+}
+.l{
+    width:29.7vw;
+    height:50vh;
+}
+#abajo{
+    width:100% ;
+    height: 33.33%;
+}
+main > section > p{
+    font-size: 2em;
+    color: darkslateblue;
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+}
+/**********************************************************************************/
+footer{
+    width:90% ;
+    height: 10%;
+    background: #EBDEF0 ;
+    margin-bottom: 2%;
+}
+footer > p{
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+/**********************************************************************************/
+body{
+    background: #F5EEF8;
+
+}
+/**********************************************************************************/
+header{
+    width:90% ;
+    height: 20%;
+    display: inline-flex;
+    background: #EBDEF0;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#logo{
+    width:30% ;
+    height: 100%;
+}
+
+#marca{
+    width:70% ;
+    height: 100%;
+    font-size: 2em;
+    color: darkslateblue;
+    padding-left: 20%;
+}
+/**********************************************************************************/
+nav{
+    width:90% ;
+    height: 10%;
+    text-align: center;
+    background: #EBDEF0 ;
+}
+li{
+    display: inline-flex;
+    padding: 3%;
+    font-size: 1.5em;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+/**********************************************************************************/
+main{
+    width:90% ;
+    height: 60%;
+    background: #EBDEF0 ;
+}
+
+/**********************************************************************************/
+footer{
+    width:90% ;
+    height: 10%;
+    background: #EBDEF0 ;
+    margin-bottom: 2%;
+}
+footer > p{
+    text-align: center;
+}
